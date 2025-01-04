@@ -1,0 +1,8 @@
+main.py
+setup.py
+file_renamer_app.egg-info/PKG-INFO
+file_renamer_app.egg-info/SOURCES.txt
+file_renamer_app.egg-info/dependency_links.txt
+file_renamer_app.egg-info/entry_points.txt
+file_renamer_app.egg-info/requires.txt
+file_renamer_app.egg-info/top_level.txt

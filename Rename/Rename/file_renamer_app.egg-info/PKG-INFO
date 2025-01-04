@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: file_renamer_app
+Version: 1.0
+Summary: An application to rename files based on Excel data
+Author: Your Name
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: tkinter
