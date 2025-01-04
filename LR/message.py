@@ -86,7 +86,7 @@ def send_messages(file_path):
 
     except Exception as e:
         update_log(f"Error: {str(e)}")
-
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
 # Function to update the log in the GUI
 def update_log(message):
     log_text.insert(tk.END, f"{message}\n")

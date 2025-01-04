@@ -68,7 +68,7 @@ def merge_files():
 # Create the main window
 root = tk.Tk()
 root.title("Excel File Merger")
-
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
 # Sheet 1 file selection
 label_sheet1 = tk.Label(root, text="Select Sheet 1 (Excel File):")
 label_sheet1.pack(pady=5)

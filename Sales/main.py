@@ -58,7 +58,7 @@ def send_files(file_path):
 
     except Exception as e:
         update_log(f"Error: {str(e)}")
-
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
 # File search function
 def search_file(product, phone_number):
     dir_path = directories.get(product)

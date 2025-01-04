@@ -23,7 +23,7 @@ def find_images_recursively(directory):
                 normalized_name = normalize_image_name(os.path.splitext(file)[0])
                 image_files[normalized_name] = os.path.join(root, file)
     return image_files
-
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
 # Function to get already existing images in the output directory
 def get_existing_images(output_directory):
     existing_images = set()

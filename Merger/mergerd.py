@@ -69,7 +69,7 @@ def merge_and_save():
 # Create the main window
 root = tk.Tk()
 root.title("Excel File Merger")
-
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
 # Stock file selection
 label_stock = tk.Label(root, text="Select Stock File (Excel):")
 label_stock.pack(pady=5)

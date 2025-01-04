@@ -19,7 +19,7 @@ def cross_check():
     if not excel_file or not pdf_directory:
         messagebox.showerror("Error", "Please select both an Excel file and a PDF folder.")
         return
-
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
     try:
         # Read the Excel file
         df = pd.read_excel(excel_file)

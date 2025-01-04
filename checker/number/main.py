@@ -17,7 +17,7 @@ def merge_files():
     if not file1_path or not file2_path:
         messagebox.showerror("Error", "Please select both Excel files.")
         return
-
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
     try:
         # Load Excel files
         file1 = pd.ExcelFile(file1_path)

@@ -128,7 +128,7 @@ def browse_file():
         update_log(f"Selected file: {file_path}")
         # Run the file processing in a separate thread
         Thread(target=send_receipts, args=(file_path,)).start()
-
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
 # Setting up the Tkinter GUI
 app = tk.Tk()
 app.title("WhatsApp Receipt Image Sender")

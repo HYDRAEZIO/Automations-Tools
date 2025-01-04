@@ -21,7 +21,7 @@ def get_all_images(root_dir):
             if os.path.splitext(file)[1].lower() in IMAGE_EXTENSIONS:
                 all_images[file.lower()] = os.path.join(dirpath, file)
     return all_images
-
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
 # Function to fetch images based on the document list using Prd. Code
 def fetch_images_by_Prd_Code():
     # Get document file path

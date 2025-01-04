@@ -20,6 +20,7 @@ def select_directory(product):
         directories[product] = dir_path
         update_log(f"Selected {product} directory: {dir_path}")
 
+# created by Vivek Pandey @ https://github.com/HYDRAEZIO
 # Function to send files based on the Excel file
 def send_files(file_path):
     try:

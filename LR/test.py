@@ -67,3 +67,5 @@ def send_file(driver, phone_number, file_path, product):
 
     except Exception as e:
         update_log(f"Failed to send file '{os.path.basename(file_path)}' to {phone_number} - {str(e)}")
+
+        # created by Vivek Pandey @ https://github.com/HYDRAEZIO
